@@ -1,0 +1,90 @@
+﻿<!--
+Caleb McCann
+PROG 109
+6/19/2015
+-->
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Rock Paper Scissors Lizard Spock</title>
+    <link href='http://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+    <link href="css/myStyles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <div id="mainWrapper">
+
+        <header id="mainPage">
+            <img src="images/choices.png" id="choices" alt="Game Picture" width="500" height="400" />
+        </header>
+
+        <section id="headerBox">
+            <h1 id="mainHeader"></h1>
+        </section>
+
+        <aside id="directions">
+            <h3 id="rules">this is cool</h3>
+            <p id="gameDirections"></p>
+        </aside>
+
+        <nav id="options">
+            <p id="variables"></p>
+            <input id="showGame" type="image" src="images/playButton.jpg" width="210" height="85" alt="play button" />
+        </nav>
+
+    </div>
+
+    <div id="gamePageWrapper">
+        <header id="gameTitle"></header>
+        <nav id="human">
+            <div class="humanClick"><p id="click"></p></div>
+            <img src="images/rock.png" class="human" id="Rock" alt="rock" />
+            <img src="images/paper.png" class="human" id="Paper" alt="paper" />
+            <img src="images/scissors.png" class="human" id="Scissors" alt="scissors" />
+            <img src="images/lizard.png" class="human" id="Lizard" alt="lizard" />
+            <img src="images/spock.png" class="human" id="Spock" alt="spock" />
+        </nav>
+
+        <section id="results">
+            <h2 id="resultTitle"></h2>
+            <h3 id="player"></h3>
+            <p id="playerWins"></p>
+            <p id="draw"></p>
+            <p id="computerWins"></p>
+            <p id="chosen"></p>
+            <button id="seeResults"><img src="images/resultsBtn.png" alt="see results" width="300" height="50" /></button>
+        </section>
+
+        <nav id="roboto">
+            <div class="humanClick"><p id="robotClick"></p></div>
+            <img src="images/rock.png" class="computer" id="comRock" alt="rock" />
+            <img src="images/paper.png" class="computer" id="comPaper" alt="paper" />
+            <img src="images/scissors.png" class="computer" id="comScissors" alt="scissors" />
+            <img src="images/lizard.png" class="computer" id="comLizard" alt="lizard" />
+            <img src="images/spock.png" class="computer" id="comSpock" alt="spock" />
+        </nav>
+
+    </div>
+
+    <div id="finalPageWrapper">
+        <h1 id="finalTitle"></h1>
+
+        <div id="finalWins"></div>
+        <div id="finalTies"></div>
+        <div id="finalLoss"></div>
+        <div id="wins"></div>
+        <div id="finalDraw"></div>
+        <div id="loss"></div>
+        <div id="finalResults"></div>
+        <div id="restartButton">
+            <button class="showMain"><img src="images/restartButton.png" height="100" width="500" alt="restart button" /></button>
+        </div>
+    </div>
+
+    <script src="js/myJS.js"></script>
+</body>
+</html>
